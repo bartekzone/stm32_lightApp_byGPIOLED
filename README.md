@@ -1,13 +1,12 @@
-# Nucleo/STM32 LightsControl Application 
+# stem32_lightApp_byGPIOLED
 
 ## 📑 **Opis projektu**
 
-Ten projekt implementuje warstwową aplikację embedded (uruchamianą na płytce Nucleo STM32F303RE), wzorowaną na strukturze AUTOSAR, w której:
+Projekt implementuje warstwową aplikację embedded (uruchamianą na płytce Nucleo STM32F303RE), wzorowaną na strukturze AUTOSAR, w której:
 - Projekt zorganizowany jest w warstwy: MCAL, BSW, RTE, APP oraz ProjectConfig, aby zachować warstwowy układ architektury i umożliwić dalszy rozwój.
 - Uruchamiane są proste zadania na płytce jak np: kontrola diody LED na płytce.
-
 - Projekt powstał jako pomoc naukowa do kursu "C dla zaawasowanych" by UCEGOSU: https://cdlazaawansowanych.pl/
-- Konfiguracje płytki zaczerpnięte z kursu youtube "STM32 na Resjestrach" by msalamon: https://www.youtube.com/@msalamon/playlists
+- Konfiguracje płytki/rejestrów zaczerpnięte z kursu youtube "STM32 na Resjestrach" by msalamon: https://www.youtube.com/@msalamon/playlists
 - Koncepcja wartsw aplikacji na podstawie strony: https://yoginsavani.com/understanding-autosar-architecture-a-guide-to-automotive-software-integration/
 
 ---
