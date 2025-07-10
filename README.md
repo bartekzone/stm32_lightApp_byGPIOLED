@@ -1,4 +1,4 @@
-# Nucleo/STM32 LightsControl AUTOSAR-like Layered Application 
+# Nucleo/STM32 LightsControl Application 
 
 ## 📑 **Opis projektu**
 
@@ -6,9 +6,9 @@ Ten projekt implementuje warstwową aplikację embedded (uruchamianą na płytce
 - Projekt zorganizowany jest w warstwy: MCAL, BSW, RTE, APP oraz ProjectConfig, aby zachować warstwowy układ architektury i umożliwić dalszy rozwój.
 - Uruchamiane są proste zadania na płytce jak np: kontrola diody LED na płytce.
 
-Projekt powstał jako pomoc naukowa do kursu "C dla zaawasowanych" by UCEGOSU https://cdlazaawansowanych.pl/
-Konfiguracje płytki zaczerpnięte z kursu youtube STM32 na Resjestrach by msalamon https://www.youtube.com/@msalamon/playlists
-Koncepcja wartsw aplikacji na podstawie strony: https://yoginsavani.com/understanding-autosar-architecture-a-guide-to-automotive-software-integration/
+- Projekt powstał jako pomoc naukowa do kursu "C dla zaawasowanych" by UCEGOSU: https://cdlazaawansowanych.pl/
+- Konfiguracje płytki zaczerpnięte z kursu youtube "STM32 na Resjestrach" by msalamon: https://www.youtube.com/@msalamon/playlists
+- Koncepcja wartsw aplikacji na podstawie strony: https://yoginsavani.com/understanding-autosar-architecture-a-guide-to-automotive-software-integration/
 
 ---
 
