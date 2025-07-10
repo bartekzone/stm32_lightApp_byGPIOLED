@@ -1,3 +1,0 @@
-../Application/MCAL/Dio_Stm32.c:5:22:Dio_GetPort	16	static
-../Application/MCAL/Dio_Stm32.c:21:6:Dio_Stm32_ConfigurePin	24	static
-../Application/MCAL/Dio_Stm32.c:33:6:Dio_Stm32_Write	24	static

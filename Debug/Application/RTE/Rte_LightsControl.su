@@ -1,5 +1,0 @@
-../Application/RTE/Rte_LightsControl.c:12:6:Rte_TurnOnLed	8	static
-../Application/RTE/Rte_LightsControl.c:18:6:Rte_TurnOffLed	8	static
-../Application/RTE/Rte_LightsControl.c:24:6:Rte_TurnOnRelay	8	static
-../Application/RTE/Rte_LightsControl.c:29:6:Rte_TurnOffRelay	8	static
-../Application/RTE/Rte_LightsControl.c:34:6:Rte_Lights_Init	4	static

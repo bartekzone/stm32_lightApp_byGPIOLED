@@ -1,6 +1,0 @@
-../Application/APP/LightsControl/Swc_LightsControl.c:12:6:Swc_Lights_Init	8	static
-../Application/APP/LightsControl/Swc_LightsControl.c:16:6:Swc_Lights_TurnOnLed	8	static
-../Application/APP/LightsControl/Swc_LightsControl.c:20:6:Swc_Lights_TurnOffLed	8	static
-../Application/APP/LightsControl/Swc_LightsControl.c:24:6:Swc_Lights_TurnOnRelay	8	static
-../Application/APP/LightsControl/Swc_LightsControl.c:28:6:Swc_Lights_TurnOffRelay	8	static
-../Application/APP/LightsControl/Swc_LightsControl.c:32:6:Swc_Lights_delay	16	static
