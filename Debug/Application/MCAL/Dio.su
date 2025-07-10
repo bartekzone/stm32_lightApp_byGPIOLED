@@ -1,0 +1,2 @@
+../Application/MCAL/Dio.c:15:6:Dio_Write	16	static
+../Application/MCAL/Dio.c:19:6:Dio_ConfigurePin	16	static
