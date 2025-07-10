@@ -13,7 +13,7 @@ Ten projekt implementuje warstwową aplikację embedded (uruchamianą na płytce
 ---
 
 ## 🔧 **Struktura katalogów**
-
+<pre lang="markdown"> <code> ``` 
 Application/
 ├── APP/
 │ └── Swc_LightsControl.c/.h # Software Component: logika sterowania LED
@@ -46,7 +46,7 @@ Application/
 ├── ProjectConfig/
 │ ├── ProjectConfig.h # Globalne definicje projektu
 │ ├── Gpio_Cfg.c/.h # Mapowanie sygnałów GPIO do pinów MCU
-
+``` </code> </pre>
 
 ## ⚙️ **Funkcjonalność**
 
