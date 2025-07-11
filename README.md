@@ -1,4 +1,4 @@
-# stem32_lightApp_byGPIOLED
+# STM32_lightApp_byGPIOLED
 
 ## 📑 **Opis projektu**
 
