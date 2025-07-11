@@ -7,19 +7,14 @@
  */
 #include "main.h"
 #include "Swc_LightsControl.h"
+#include "EcuM.h"
 
 int main(void)
 {
+	EcuM_Init();
 	Swc_Lights_Init();
-	Swc_Lights_delay();
-	Swc_Lights_TurnOnLed();
-	Swc_Lights_delay();
-	Swc_Lights_TurnOffLed();
-	Swc_Lights_delay();
-
-	Swc_Lights_TurnOnRelay();
-	Swc_Lights_delay();
-	Swc_Lights_TurnOffRelay();
-	Swc_Lights_delay();
+	EcuM_MainFunction();
+	Swc_Lights_LEDMainFunction();
+	Swc_Lights_RelayMainFunction();
 	return 0;
 }

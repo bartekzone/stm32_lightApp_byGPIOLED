@@ -32,5 +32,5 @@ void Rte_TurnOffRelay(void) {
     }
 }
 void Rte_Lights_Init(void){
-	// Inicjalizacja, np. GPIO/MCAL jeśli potrzebne
+	// // tutaj już tylko konfiguracja logiki aplikacji, nie driverów
 }

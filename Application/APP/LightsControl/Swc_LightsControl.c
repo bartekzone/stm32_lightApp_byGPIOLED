@@ -12,6 +12,19 @@
 void Swc_Lights_Init(void) {
 	Rte_Lights_Init();
 }
+void Swc_Lights_LEDMainFunction(void) {
+Swc_Lights_TurnOnLed();
+Swc_Lights_delay();
+Swc_Lights_TurnOffLed();
+Swc_Lights_delay();
+}
+
+void Swc_Lights_RelayMainFunction(void) {
+Swc_Lights_TurnOnRelay();
+Swc_Lights_delay();
+Swc_Lights_TurnOffRelay();
+Swc_Lights_delay();
+}
 
 void Swc_Lights_TurnOnLed(void) {
     Rte_TurnOnLed();

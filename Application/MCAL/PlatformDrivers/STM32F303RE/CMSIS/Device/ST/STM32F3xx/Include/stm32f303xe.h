@@ -155,8 +155,8 @@ typedef enum
   * @}
   */
 
-#include <PlatformDrivers/STM32F303RE/CMSIS/Include/core_cm4.h>            /* Cortex-M4 processor and core peripherals */
-#include <PlatformDrivers/STM32F303RE/CMSIS/Device/ST/STM32F3xx/Include/system_stm32f3xx.h>    /* STM32F3xx System Header */
+#include "core_cm4.h"            /* Cortex-M4 processor and core peripherals */
+#include "system_stm32f3xx.h"    /* STM32F3xx System Header */
 #include <stdint.h>
 
 /** @addtogroup Peripheral_registers_structures
