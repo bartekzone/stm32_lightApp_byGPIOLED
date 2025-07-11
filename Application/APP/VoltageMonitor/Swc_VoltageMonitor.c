@@ -20,7 +20,7 @@ void Swc_VoltageMonitor_MainFunction(void) {
 
 	if(voltage_mv > VOLTAGE_THRESHOLD_MV)
 	    {
-	        // Wyzwól zabezpieczenie np: Swc_LightsControl_TurnOffRelay();
+	        //Wyzwól zabezpieczenie np: Swc_LightsControl_TurnOffRelay();
 			Rte_Call_EcuM_RequestShutdown(); // np. zmień stan na ECUM_STATE_SHUTDOWN
 	    }
 }
