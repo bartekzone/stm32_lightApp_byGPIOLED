@@ -36,7 +36,6 @@ Release/
 
 # CubeIDE specific
 .settings/
-.cproject
 .project
 .loadpath
 .metadata/
