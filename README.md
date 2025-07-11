@@ -7,7 +7,6 @@ Projekt implementuje warstwową aplikację embedded (uruchamianą na płytce Nuc
 - Uruchamiane są proste zadania na płytce jak np: kontrola diody LED na płytce.
 - Projekt powstał jako pomoc naukowa do kursu "C dla zaawasowanych" by UCEGOSU: https://cdlazaawansowanych.pl/
 - Konfiguracje płytki/rejestrów zaczerpnięte z kursu youtube "STM32 na Resjestrach" by msalamon: https://www.youtube.com/@msalamon/playlists
->>>>>>> 534adc0ba38d89f7bde44eb013653db32239323a
 - Koncepcja wartsw aplikacji na podstawie strony: https://yoginsavani.com/understanding-autosar-architecture-a-guide-to-automotive-software-integration/
 
 ---
