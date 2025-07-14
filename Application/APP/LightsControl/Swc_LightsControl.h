@@ -15,6 +15,9 @@ void Swc_Lights_TurnOnLed(void);
 void Swc_Lights_TurnOffLed(void);
 void Swc_Lights_TurnOnRelay(void);
 void Swc_Lights_TurnOffRelay(void);
+void Swc_CheckButton(void);
+void Swc_Lights_TurnOnLedBlink(void);
+void Swc_Lights_blinkdelay(void);
 void Swc_Lights_delay(void);
 
 #endif
