@@ -14,5 +14,6 @@
 
 void Dio_Write(const GpioPinConfig_t* pinCfg, bool state);
 void Dio_ConfigurePin(const GpioPinConfig_t *pinCfg);
+bool Dio_Read(const GpioPinConfig_t* pinCfg) ;
 
 #endif

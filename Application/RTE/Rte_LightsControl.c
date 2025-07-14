@@ -9,6 +9,13 @@
 #include "Gpio.h"
 #include "ErrorHandler.h"
 
+bool Rte_CheckButton(bool *level) {
+	if (!gpio_get(GPIO_SIGNAL_BUTTON, level)) {
+		Error_Report(ERROR_GPIO_FAILURE);
+		return false;
+	}
+	return true;
+}
 void Rte_TurnOnLed(void) {
     if (!gpio_set(GPIO_SIGNAL_LED)) {
         Error_Report(ERROR_GPIO_FAILURE);
