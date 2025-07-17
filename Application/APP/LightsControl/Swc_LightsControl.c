@@ -33,8 +33,10 @@ void Swc_Lights_TurnOnLed(void) {
 void Swc_Lights_TurnOnLedBlink(void) {
 	for (volatile uint32_t i=0; i<4; i++)
 	{
-		Rte_TurnOnLed();
+		Swc_Lights_TurnOffLed();
 		Swc_Lights_blinkdelay();
+		Swc_Lights_TurnOnLed();
+
 	}
 }
 void Swc_Lights_TurnOffLed(void) {
