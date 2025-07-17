@@ -10,10 +10,18 @@
 
 #include "Gpio_Cfg.h"
 #include <stddef.h>
+#include "stdbool.h"
+
+#define PC13 (1<<13)
+
+void Dio_Stm32_Configure_PortA_LD4(void);
+void Dio_Stm32_WriteState_PortA_LD4(bool state);
+void Dio_Stm32_Configure_PortC_Button(void);
+bool Dio_Stm32_Read_Button_Pressed(void);
 
 void Dio_Stm32_ConfigurePin(const GpioPinConfig_t* pinCfg);
 void Dio_Stm32_Write(const GpioPinConfig_t* pinCfg, bool state);
-void Dio_Stm32_ConfigurePortA(void);
-void Dio_Stm32_WriteState_LD4(bool state);
+//static GPIO_TypeDef* Dio_GetPort(GpioPort_t port);
+
 
 #endif

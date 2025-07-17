@@ -26,6 +26,7 @@ typedef struct {
 typedef enum {
     GPIO_SIGNAL_LED,
     GPIO_SIGNAL_RELAY,
+	GPIO_SIGNAL_BUTTON,
     GPIO_SIGNAL_COUNT
 } GpioSignal_t;
 

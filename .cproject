@@ -56,6 +56,7 @@
 									<listOptionValue builtIn="false" value="../Application/APP/VoltageMonitor"/>
 									<listOptionValue builtIn="false" value="../Application/MCAL/Dio"/>
 									<listOptionValue builtIn="false" value="../Application/MCAL/Can"/>
+									<listOptionValue builtIn="false" value="../Application/MCAL/Adc"/>
 									<listOptionValue builtIn="false" value="../Application/RTE"/>
 									<listOptionValue builtIn="false" value="../Application/APP"/>
 									<listOptionValue builtIn="false" value="../Application/MCAL/PlatformDrivers/STM32F303RE/CMSIS/Include"/>
